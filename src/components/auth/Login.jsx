@@ -25,7 +25,7 @@ const Login = () => {
 
         try {
             setLoading(true);
-            const res = await axios.post("http://3.236.164.91:3002/login", {
+            const res = await axios.post("https://aws-backend-2.onrender.com/login", {
                 email: email,
                 password: password,
             });
