@@ -21,7 +21,7 @@ const Signup = () => {
 
         try {
             setLoading(true);
-            const res = await axios.post("http://3.236.164.91/signup", {
+            const res = await axios.post("http://3.236.164.91:3002/signup", {
                 email: email,
                 password: password,
                 username: username,
